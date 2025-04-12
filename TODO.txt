@@ -1,0 +1,7 @@
+
+get data
+cache data
+
+save cache data to whateverDB browser got
+
+and then sync data back and forth if mismatched if time > data
