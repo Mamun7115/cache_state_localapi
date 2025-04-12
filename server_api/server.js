@@ -1,6 +1,6 @@
 import dotenv from "dotenv";
 import express from "express";
-import fs from "fs";
+import database from "./fakedatabase/dbController.cjs";
 
 // Import environment variables
 dotenv.config();
@@ -22,7 +22,7 @@ app.use(express.json());
 
 // routes
 app.get("/", (req, res) => {
-    res.send("Hello World!");
+    res.json(database.getData());
 });
 
 

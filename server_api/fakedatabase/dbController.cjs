@@ -1,11 +1,11 @@
-import fs from "fs";
-import path from "path";
+const fs = require("fs");
+const path = require("path");
 
 
 const dbPath = path.join(__dirname,"database.json");
 
 
-export const database = {
+const database = {
     /* 
     --- DB Structure ---
     db = {
@@ -35,3 +35,6 @@ export const database = {
 
 
 }
+
+
+module.exports = database;
