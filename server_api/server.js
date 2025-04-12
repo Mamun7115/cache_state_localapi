@@ -25,6 +25,11 @@ app.get("/", (req, res) => {
     res.json(database.getData());
 });
 
+app.put("/create", (req, res) => {
+    database.write(req.body);
+    res.json(database.getData());   
+})
+
 
 
 // Start the server and listen on the specified port

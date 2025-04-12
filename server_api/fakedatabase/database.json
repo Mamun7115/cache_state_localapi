@@ -1,4 +1,14 @@
 {
-    "users": []
+  "users": [
+    {
+      "name": "Huhhshsman",
+      "age": 29,
+      "gender": "male"
+    },
+    {
+      "name": "shark",
+      "age": 19,
+      "gender": "male"
+    }
+  ]
 }
-  
